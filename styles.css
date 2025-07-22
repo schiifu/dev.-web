@@ -1,0 +1,65 @@
+/* 4. CSS Básico e Box Model - Crie um arquivo styles.css e vincule-o em
+index.html &5. Seletores e Propriedades - No mesmo styles.css, adicione: */
+
+p {
+    color: rgb(144, 97, 36);
+}
+
+body {
+    background-color: rgb(129, 174, 84);
+    padding: 10px
+}
+
+main {
+    background-color: rgb(148, 180, 117);
+    border: 2px solid black;
+    position: center;
+    margin-block: 20px;
+}
+
+header {
+    background-color: rgb(102, 133, 71);
+    border: 2px solid black;
+    box-sizing: content-box;
+}
+
+footer {
+    background-color: rgb(102, 133, 71);
+    border: 2px solid black
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.destaque {
+    font-style: italic;
+    background-color: rgb(167, 188, 146);
+    text-align: center;
+    border-style: dotted;
+    max-width: 100px;
+    max-height: 100px;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#importante {
+    border-top: 10px;
+    border-style: dotted;
+}
